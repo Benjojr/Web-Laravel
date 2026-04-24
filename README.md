@@ -26,27 +26,41 @@ Aplikasi web dengan sistem autentikasi (login & register) berbasis Laravel.
 ## Instalasi
 
 1. Clone repository
+```bash
    git clone https://github.com/username/nama-repo.git
+```
 
 2. Install dependencies
+```bash
    composer install
+```
 
 3. Salin file environment
+```bash
    cp .env.example .env
+```
 
 4. Generate app key
+```bash
    php artisan key:generate
+```
 
-5. Sesuaikan konfigurasi database di .env
+5. Sesuaikan konfigurasi database di `.env`
+```env
    DB_DATABASE=pemweb
    DB_USERNAME=root
    DB_PASSWORD=
+```
 
 6. Jalankan migrasi
+```bash
    php artisan migrate
+```
 
 7. Jalankan server
+```bash
    php artisan serve
+```
 
 ## Lisensi
 [MIT license](https://opensource.org/licenses/MIT).
