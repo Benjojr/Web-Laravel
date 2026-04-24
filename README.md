@@ -27,7 +27,7 @@ Aplikasi web dengan sistem autentikasi (login & register) berbasis Laravel.
 
 1. Clone repository
 ```bash
-   git clone https://github.com/username/nama-repo.git
+   git clone https://github.com/Benjojr/Web-Laravel.git
 ```
 
 2. Install dependencies
